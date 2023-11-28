@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  db:
+    container_name: HomeWork_Aiohttp
+    image: postgres:14.3-alpine3.15
+    ports:
+      - '5435:5432'
+    environment:
+      POSTGRES_USER: WEBPY-58
+      POSTGRES_PASSWORD: 22334455
+      POSTGRES_DB: HomeWork_AIOHTTP
